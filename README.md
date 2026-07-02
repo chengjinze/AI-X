@@ -1,6 +1,6 @@
-﻿# AI-X 鈥?Enterprise AI Strategic Workspace
+# AI-X — Enterprise AI Strategic Workspace
 
-A single-entry AI strategic workspace for deep research, strategic analysis, and decision intelligence. Built as a conversational agent platform 鈥?not a chatbot.
+A single-entry AI strategic workspace for deep research, strategic analysis, and decision intelligence. Built as a conversational agent platform — not a chatbot.
 
 ## Demo
 
@@ -60,13 +60,13 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Key Features
 
-- **Recursive Requirement Clarification** 鈥?Agent asks structured follow-ups before analysis
-- **Multi-Provider AI Router** 鈥?Route to OpenAI, Anthropic, Gemini, DeepSeek, or local Ollama
-- **Aggregated Web Search** 鈥?Parallel search across multiple engines with cross-validation
-- **Deep Research Mode** 鈥?Long-form multi-step investigation with source synthesis
-- **Strategic Analysis Mode** 鈥?Porter's Five Forces, moat analysis, second-order effects
-- **Conversation Management** 鈥?Persistent chat history with Supabase
-- **File Upload** 鈥?PDF, DOCX, XLSX, CSV, PPT, Markdown analysis
+- **Recursive Requirement Clarification** — Agent asks structured follow-ups before analysis
+- **Multi-Provider AI Router** — Route to OpenAI, Anthropic, Gemini, DeepSeek, or local Ollama
+- **Aggregated Web Search** — Parallel search across multiple engines with cross-validation
+- **Deep Research Mode** — Long-form multi-step investigation with source synthesis
+- **Strategic Analysis Mode** — Porter's Five Forces, moat analysis, second-order effects
+- **Conversation Management** — Persistent chat history with Supabase
+- **File Upload** — PDF, DOCX, XLSX, CSV, PPT, Markdown analysis
 
 ## Environment Variables
 
@@ -74,7 +74,7 @@ See [.env.example](.env.example) for the full list. Required keys:
 
 - At least one AI provider key (OpenAI / Anthropic / Google / DeepSeek / Ollama)
 - At least one search engine key (Tavily / Serper / Bocha)
-- Supabase URL + keys for persistence (optional 鈥?app works with in-memory fallback)
+- Supabase URL + keys for persistence (optional — app works with in-memory fallback)
 
 ## License
 

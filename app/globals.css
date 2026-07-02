@@ -1,0 +1,140 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 3.9%;
+  --foreground: 0 0% 98%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: hsl(0, 0%, 3.9%);
+  color: hsl(0, 0%, 98%);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 25%);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 35%);
+}
+
+/* Markdown styles */
+.prose {
+  line-height: 1.75;
+  color: hsl(0, 0%, 90%);
+}
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: hsl(0, 0%, 98%);
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+.prose h2 {
+  font-size: 1.25rem;
+  border-bottom: 1px solid hsl(0, 0%, 15%);
+  padding-bottom: 0.3em;
+}
+.prose h3 {
+  font-size: 1.1rem;
+}
+.prose p {
+  margin: 0.75em 0;
+}
+.prose ul,
+.prose ol {
+  padding-left: 1.5em;
+  margin: 0.5em 0;
+}
+.prose li {
+  margin: 0.25em 0;
+}
+.prose strong {
+  color: hsl(0, 0%, 98%);
+  font-weight: 600;
+}
+.prose blockquote {
+  border-left: 3px solid hsl(0, 0%, 25%);
+  padding-left: 1em;
+  margin: 0.75em 0;
+  color: hsl(0, 0%, 70%);
+  font-style: italic;
+}
+.prose code {
+  background: hsl(0, 0%, 12%);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+.prose pre {
+  background: hsl(0, 0%, 8%);
+  border: 1px solid hsl(0, 0%, 15%);
+  border-radius: 8px;
+  padding: 1em 1.2em;
+  overflow-x: auto;
+  margin: 0.75em 0;
+}
+.prose pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.85em;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75em 0;
+}
+.prose th,
+.prose td {
+  border: 1px solid hsl(0, 0%, 15%);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+.prose th {
+  background: hsl(0, 0%, 10%);
+  font-weight: 600;
+  color: hsl(0, 0%, 95%);
+}
+.prose a {
+  color: hsl(210, 100%, 70%);
+  text-decoration: none;
+}
+.prose a:hover {
+  text-decoration: underline;
+}
+.prose hr {
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 15%);
+  margin: 1.5em 0;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
